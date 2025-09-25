@@ -69,7 +69,9 @@ edu/
     
 ## Requirements
 Java JDK 17 or above
+
 Command Prompt window
+
 IDE like eclipse , vscode 
 
 
