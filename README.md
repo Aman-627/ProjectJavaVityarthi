@@ -1,6 +1,6 @@
 # Educational Course & Enrollment Management System
 
-## 📌 Overview
+##  Overview
 This is a Java-based **Educational Course & Enrollment Management System**.  
 It allows students, instructors, and admins to manage courses, enrollments, and grades through a **Command Line Interface (CLI)**.  
 
