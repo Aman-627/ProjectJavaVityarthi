@@ -62,11 +62,14 @@ edu/
     ├── io/
     │   └── ImportExportService.java # Handles CSV data operations using NIO.2
     └── README.md                 # (This file)
-⚙️ Requirements
+
+
+    
+## Requirements
 Java JDK 17 or above
 
 
-## ▶️ How to Run
+##  How to Run
 Step 1 - just download and paste this folder on your desktop .
 Step 2 - go the cmd file open it with notepad ,  change '\Atman\' in cd /d C:\Users\Atman\Desktop to your desktop path, save the file .
 Step 3 - run the cmd . 
