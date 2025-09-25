@@ -75,6 +75,31 @@ Command Prompt window
 IDE like eclipse , vscode 
 
 
+## Java Installation
+
+Follow these steps to install Java JDK on your system:
+
+### 1. Download Java
+Search for **Java JDK 17** in your browser or visit the [Oracle Downloads Page](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html).  
+
+![Java Search](Screenshots/Java%20search.png)
+
+---
+
+### 2. Run the Installer
+Open the downloaded installer and follow the on-screen instructions.  
+
+![Java Installer](Screenshots/Installer.png)
+
+---
+
+### 3. Set Environment Variables
+After installation, set the `JAVA_HOME` path and update the `PATH` variable.  
+
+![Environment Variables](Screenshots/env.png)
+
+---
+
 ##  How to Run
 Step 1 - just download and paste this folder on your desktop .
 Step 2 - go the cmd file open it with notepad ,  change '\Atman\' in cd /d C:\Users\Atman\Desktop to your desktop path, save the file .
