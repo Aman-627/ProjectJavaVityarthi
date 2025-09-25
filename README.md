@@ -20,7 +20,7 @@ Evolution of Java
 
 ---
 
-## ✨ Features
+##  Features
 - **Course Management** – Create and manage courses  
 - **Enrollment Management** – Enroll students into courses  
 - **Instructor Management** – Assign instructors to courses  
@@ -41,9 +41,10 @@ JVM (Java Virtual Machine): An abstract machine that executes compiled Java byte
 JRE (Java Runtime Environment): The software package that provides the JVM along with the standard Java class libraries needed to run Java applications.
 
 JDK (Java Development Kit): The complete software development kit for Java. It includes the JRE as well as development tools like the compiler (javac), debugger, and archiver (jar) needed to create Java applications.
+
 ---
 
-🛠️ Project Structure
+ Project Structure
 The project directory is organized by feature, with distinct packages for the user interface, domain objects, and services. The visual layout below highlights the key files and their roles:
 
 edu/
