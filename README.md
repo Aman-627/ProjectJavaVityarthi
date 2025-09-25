@@ -53,6 +53,10 @@ edu/
 └── ccrm/
     ├── cli/
     │   └── MainApp.java        # Entry point of the application & main menu system
+    ├── screenshots/
+    │   └── installer.png
+        ├── java search.png
+        ├── env.png
     ├── domain/
     │   ├── Person.java         # Base class for Student and Instructor
     │   ├── Student.java        # Student entity demonstrating Encapsulation
