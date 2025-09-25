@@ -44,8 +44,9 @@ JDK (Java Development Kit): The complete software development kit for Java. It i
 
 ---
 
- Project Structure
+## Project Structure
 The project directory is organized by feature, with distinct packages for the user interface, domain objects, and services. The visual layout below highlights the key files and their roles:
+```
 
 edu/
 └── ccrm/
@@ -63,7 +64,7 @@ edu/
     │   └── ImportExportService.java # Handles CSV data operations using NIO.2
     └── README.md                 # (This file)
 
-
+```
     
 ## Requirements
 Java JDK 17 or above
