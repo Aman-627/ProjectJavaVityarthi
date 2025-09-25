@@ -42,29 +42,27 @@ JRE (Java Runtime Environment): The software package that provides the JVM along
 JDK (Java Development Kit): The complete software development kit for Java. It includes the JRE as well as development tools like the compiler (javac), debugger, and archiver (jar) needed to create Java applications.
 ---
 
-## 🛠 Project Structure
+🛠️ Project Structure
+The project directory is organized by feature, with distinct packages for the user interface, domain objects, and services. The visual layout below highlights the key files and their roles:
+
 edu/
 └── ccrm/
-├── Main.java # Entry point of the application
-├── cli/
-│ └── Menu.java # Command-line interface (menu system)
-├── config/
-│ └── AppConfig.java # Application configuration
-├── domain/
-│ ├── Course.java # Course entity
-│ ├── Enrollment.java # Enrollment entity
-│ ├── Grade.java # Grade entity
-│ ├── Instructor.java # Instructor entity
-│ ├── Person.java # Base class for people (students/instructors)
-│ └── Name.java # Name handling class
-└── README.md # (This file)
+    ├── cli/
+    │   └── MainApp.java        # Entry point of the application & main menu system
+    ├── domain/
+    │   ├── Person.java         # Base class for Student and Instructor
+    │   ├── Student.java        # Student entity demonstrating Encapsulation
+    │   ├── Course.java         # Course entity
+    │   ├── Enrollment.java     # Enrollment entity using the Date/Time API
+    │   └── Grade.java          # Grade enum
+    ├── service/
+    │   └── CourseServiceImpl.java # Business logic, uses Streams & Lambdas
+    ├── io/
+    │   └── ImportExportService.java # Handles CSV data operations using NIO.2
+    └── README.md                 # (This file)
+⚙️ Requirements
+Java JDK 17 or above
 
-## ⚙️ Requirements
-- Java JDK 11 or above  
-- A terminal/command prompt  
-- (Optional) An IDE like IntelliJ IDEA, Eclipse, or VS Code  
-
----
 
 ## ▶️ How to Run
 Step 1 - just download and paste this folder on your desktop .
