@@ -17,6 +17,7 @@ Evolution of Java
 2017: Java 9 - Introduced the Java Platform Module System (JPMS).
 
 2021: Java 17 (LTS) - The current Long-Term Support version, which added Records and Sealed Classes.
+
 ---
 
 ## ✨ Features
