@@ -8,6 +8,7 @@ The project demonstrates **Object-Oriented Programming (OOP)** concepts like Enc
 
 ---
 Evolution of Java
+
 1995: Java 1.0 - Introduced the "Write Once, Run Anywhere" philosophy.
 
 2004: Java 5 - A major update that brought Generics, Enums, and Annotations.
